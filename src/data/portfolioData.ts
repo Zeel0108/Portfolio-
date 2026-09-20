@@ -78,7 +78,7 @@ export const PERSONAL_INFO = {
   location: "Gujarat, India",
   socials: {
     linkedin: "https://www.linkedin.com/in/zeel-golakiya-267b71260/",
-    github: "https://github.com/zeelgolakiya",
+    github: "https://github.com/Zeel0108",
     email: "mailto:zeelgolakiya05@gmail.com"
   }
 };
