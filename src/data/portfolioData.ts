@@ -77,7 +77,7 @@ export const PERSONAL_INFO = {
   phone: "+91 9512801139",
   location: "Gujarat, India",
   socials: {
-    linkedin: "https://linkedin.com/in/zeelgolakiya",
+    linkedin: "https://www.linkedin.com/in/zeel-golakiya-267b71260/",
     github: "https://github.com/zeelgolakiya",
     email: "mailto:zeelgolakiya05@gmail.com"
   }
