@@ -65,6 +65,15 @@ export const Navbar: React.FC = () => {
         {/* CTA & Mobile Toggle */}
         <div className="flex items-center gap-4">
           <a
+            href="/Zeel%20Golakiya.pdf"
+            download="Zeel Golakiya Resume.pdf"
+            className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full border border-[#8B5CF6]/40 bg-[#8B5CF6]/10 text-[#F4F4F5] text-xs md:text-sm font-medium hover:bg-[#8B5CF6]/20 transition-all duration-300"
+          >
+            <span>Resume</span>
+            <ArrowUpRight className="w-4 h-4" />
+          </a>
+
+          <a
             href="#contact"
             className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-[#8B5CF6] to-[#3B82F6] text-white text-xs md:text-sm font-medium hover:opacity-90 transition-all duration-300 shadow-lg shadow-[#8B5CF6]/25 hover:shadow-[#3B82F6]/40 hover:-translate-y-0.5"
           >
@@ -97,9 +106,18 @@ export const Navbar: React.FC = () => {
             </a>
           ))}
           <a
+            href="/Zeel%20Golakiya.pdf"
+            download="Zeel Golakiya Resume.pdf"
+            onClick={() => setMobileMenuOpen(false)}
+            className="inline-flex items-center justify-center gap-2 w-full py-3 rounded-xl border border-[#8B5CF6]/40 bg-[#8B5CF6]/10 text-white font-medium text-center mt-2"
+          >
+            <span>Download Resume</span>
+            <ArrowUpRight className="w-4 h-4" />
+          </a>
+          <a
             href="#contact"
             onClick={() => setMobileMenuOpen(false)}
-            className="inline-flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-gradient-to-r from-[#8B5CF6] to-[#3B82F6] text-white font-medium text-center shadow-lg shadow-[#8B5CF6]/20 mt-2"
+            className="inline-flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-gradient-to-r from-[#8B5CF6] to-[#3B82F6] text-white font-medium text-center shadow-lg shadow-[#8B5CF6]/20"
           >
             <span>Let's Connect</span>
             <ArrowUpRight className="w-4 h-4" />

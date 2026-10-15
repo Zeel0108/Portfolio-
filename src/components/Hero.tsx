@@ -72,10 +72,11 @@ export const Hero: React.FC = () => {
             </a>
 
             <a
-              href="#contact"
+              href="/Zeel%20Golakiya.pdf"
+              download="Zeel Golakiya Resume.pdf"
               className="group inline-flex items-center gap-3 px-7 py-4 rounded-full bg-[#17171C] border border-[#27272A] text-white font-display font-medium text-sm md:text-base hover:bg-[#27272A] hover:border-[#3F3F46] transition-all duration-300 hover:-translate-y-0.5"
             >
-              <span>Let's Connect</span>
+              <span>Download Resume</span>
               <ArrowUpRight className="w-5 h-5 text-[#A1A1AA] group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
             </a>
           </div>
